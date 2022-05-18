@@ -1,2 +1,2 @@
 #!/bin/bash
-directory(){pwd}
+echo $pwd
