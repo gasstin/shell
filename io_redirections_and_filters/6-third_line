@@ -1,2 +1,2 @@
 #!/bin/bash
-cat -b 3 iacta | tail -b 1
+cat -ns 3 iacta | tail -ns 1
