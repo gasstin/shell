@@ -1,2 +1,2 @@
 #!/bin/bash
-sort | ls -aSR1 --group-directories-first  | find . -type f  -name '*.gif' | rev | cut -d. --complement -f1 | cut -d/ -f1 | rev
+ls -aSR1 --group-directories-first  | find . -type f  -name '*.gif' | rev | cut -d. --complement -f1 | cut -d/ -f1 | rev
