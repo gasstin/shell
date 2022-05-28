@@ -1,0 +1,1 @@
+sort | cut -d'	' -f1 | uniq -c | sort -n | tail -11 | sort -nr  | rev | cut -d' ' -f1 | rev 26-the_biggest_fan
