@@ -2,17 +2,17 @@
 #task to use case
 n=1;
 while [ $n -le 20 ]; do
-		printf "%s" "$n"
+		printf "\n%s" "$n"
 		(( n++ ))
 
 case $n in
 5)
-	printf "bad luck from China\n"
+	printf "\n%s"	"bad luck from China"
 	;;
 10)
-	        printf "bad luck from Japan\n"
+	        printf "\n%s" "bad luck from Japan"
 		        ;;
 18)
-			printf "bad luck from Italy\n"					                        ;;
+			printf "\n%s" "bad luck from Italy"					                        ;;
 esac
 done
