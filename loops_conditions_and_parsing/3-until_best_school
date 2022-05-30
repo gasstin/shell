@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #task whit one until
 n=10;
-until [ $n -lt 0 ]
+until [ $n -le 0 ]
 do
 	echo Best School
 	(( n-- ))
