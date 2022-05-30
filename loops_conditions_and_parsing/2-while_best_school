@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#task whit one for
+n=1;
+while [ $n -le 10 ]; do
+	printf "Best School\n"
+	(( n++ ))
+done
