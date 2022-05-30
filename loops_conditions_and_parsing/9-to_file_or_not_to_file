@@ -3,7 +3,7 @@
 archive="./school"
 if [ -e "$archive" ]
 then
-	echo school file exist
+	echo school file exists
 	if [ -s "$archive" ]
 	then
 		echo school file is not empty
