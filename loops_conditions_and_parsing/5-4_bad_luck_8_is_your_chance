@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+#task whit one for
+n=1;
+while [ $n -le 10 ]; do
+	if [ $n == 4 ]; then
+		printf "bad luck\n"
+	elif [ $n == 8 ];then
+		printf "good luck\n"
+	else
+		printf "Best School\n"
+	fi
+		(( n++ ))
+done
