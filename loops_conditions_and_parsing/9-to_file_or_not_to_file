@@ -7,10 +7,13 @@ then
 	if [ -s "$archive" ]
 	then
 		echo school file is not empty
+	
 		if [ -f "$archive" ]
 		then
 			echo school is a regular file
-		fi	
+		
+		fi
+		
 	else
 	       	echo school file is empty
 	fi
