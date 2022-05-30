@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #Write a Bash script that show the IPs
-wget http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log
+curl http://intranet-projects-files.s3.amazonaws.com/holbertonschool-sysadmin_devops/80/apache-access.log
 awk '{print $1}' apache-access.log
