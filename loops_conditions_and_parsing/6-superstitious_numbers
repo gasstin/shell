@@ -2,7 +2,7 @@
 #task to use case
 n=1;
 while [ $n -le 20 ]; do
-		printf "$n\n"
+		printf "%s" "$n"
 		(( n++ ))
 
 case $n in
