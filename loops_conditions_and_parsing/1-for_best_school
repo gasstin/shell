@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #task whit one for
-for (( n=1; c<= 10; c++ )); do
+for (( n=1; n<= 10; n++ )); do
 	printf "Best School\n"
 done
