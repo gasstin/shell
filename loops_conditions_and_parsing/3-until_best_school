@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #task whit one until
-n=1;
-until [ $n -lt 10 ] 
+n=10;
+until [ $n -lt 0 ]
 do
-	echo "Best School"
-	let n=$n+1
+	echo Best School
+	(( n-- ))
 done
