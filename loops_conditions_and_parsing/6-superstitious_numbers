@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+#task to use case
+n=1;
+while [ $n -le 20 ]; do
+		printf "$n\n"
+		(( n++ ))
+
+case $n in
+5)
+	printf "bad luck from China\n"
+	;;
+10)
+	        printf "bad luck from Japan\n"
+		        ;;
+18)
+			printf "bad luck from Italy\n"					                        ;;
+esac
+done
