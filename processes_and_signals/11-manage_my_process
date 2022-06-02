@@ -4,16 +4,17 @@ if [[ $1 == start ]]
 then
 	touch /var/run/my_process.pid
 	./manage_my_process &
-	echo $! > /var/run/my_process.pid
+	aux="$!"
+	echo "$aux" > /var/run/my_process.pid
 	echo manage_my_process started
 elif [[ $1 == stop ]]
 then
 	echo manage_my_process stopped
-	pkill manage_my_process -f; 
+	kill -9 $aux
 	rm /var/run/my_process.pid
 elif [[ $1 == restart ]]
 then
-	pkill manage_my_process -f;
+	kill -9 "$aux"
 	rm /var/run/my_process.pid
 	touch /var/run/my_process.pid
         ./manage_my_process &
