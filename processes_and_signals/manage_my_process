@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#A Bash auxiliar script for the 11 task
+while :
+do
+		echo  I am alive! >> /tmp/my_process
+			sleep 2
+done
